@@ -1,5 +1,17 @@
 ﻿Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, W");
-int a = 40;
-int b = 10;
-Console.WriteLine(a + b);
+            string aaa;
+            aaa = Console.ReadLine();
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+                for (int k = 0; k < 10; k++)
+                {
+                    Console.Write(aaa);
+                    Console.WriteLine("   " + k);
+                }
+            }
+            int gay = Convert.ToInt32(Console.ReadLine());
+            switch(gay)
+            {
+
+            }
