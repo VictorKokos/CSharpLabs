@@ -105,5 +105,33 @@ int? someInt2 = 34;
 Console.WriteLine(someInt1.HasValue);
 Console.WriteLine(someInt2.HasValue);
 
+//1f
 var x = 14;
 //x = 14.88;
+
+//2a
+string str1 = "go";
+string str2 = "neGo";
+Console.WriteLine(str1 == str2 ? "same" : "neSame");
+
+//2b
+string stringus1 = "big russian floppa";
+string stringus2 = "is not a cat";
+string stringus3 = "it is a caracal";
+Console.WriteLine(string.Concat(stringus1, stringus2, stringus3));
+
+stringus3 = string.Copy(stringus1);
+Console.WriteLine(string.Concat(stringus1, stringus2, stringus3));
+
+stringus2 = stringus2.Substring(0, 3);
+Console.WriteLine(string.Concat(stringus1, stringus2, stringus3));
+
+string[] podstroki = stringus1.Split(' ');
+foreach(var pod in podstroki)
+{
+    Console.WriteLine(pod);
+}
+stringus3.Insert(0, stringus2);
+Console.WriteLine(stringus2);
+Console.WriteLine(stringus3);
+Console.WriteLine(stringus3.Insert(0, stringus2));
