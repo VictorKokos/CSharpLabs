@@ -1,4 +1,5 @@
-﻿//1.a) 
+﻿using System.Text;
+//1.a) 
 Console.WriteLine("Задание 1a?");
 if (Console.ReadLine() != "0")
 {
@@ -118,20 +119,47 @@ Console.WriteLine(str1 == str2 ? "same" : "neSame");
 string stringus1 = "big russian floppa";
 string stringus2 = "is not a cat";
 string stringus3 = "it is a caracal";
+//Сцепление
 Console.WriteLine(string.Concat(stringus1, stringus2, stringus3));
-
+//Копирование
 stringus3 = string.Copy(stringus1);
 Console.WriteLine(string.Concat(stringus1, stringus2, stringus3));
-
+//Выделение подстроки
 stringus2 = stringus2.Substring(0, 3);
 Console.WriteLine(string.Concat(stringus1, stringus2, stringus3));
-
+//Разделение на слова
 string[] podstroki = stringus1.Split(' ');
 foreach(var pod in podstroki)
 {
     Console.WriteLine(pod);
 }
-stringus3.Insert(0, stringus2);
-Console.WriteLine(stringus2);
-Console.WriteLine(stringus3);
-Console.WriteLine(stringus3.Insert(0, stringus2));
+//Вставка подстроки в заданную позицию
+Console.WriteLine(stringus3.Insert(0, stringus2.Substring(0, 3)));
+//Удаление подстроки
+Console.WriteLine(stringus3.Remove(0, 4));
+
+Console.WriteLine($"{stringus1} likes pelmeni");
+//2c
+string stringus4 = "";
+string stringus5 = null;
+Console.WriteLine(string.IsNullOrEmpty(stringus4));
+Console.WriteLine(string.IsNullOrEmpty(stringus5));
+//2d
+StringBuilder sb = new StringBuilder("NewYork", 50);
+Console.WriteLine(sb);
+sb.Remove(0, 3);
+Console.WriteLine(sb);
+sb.Insert(0, "100");
+sb.Insert(sb.Length, "200");
+Console.WriteLine(sb);
+//3a
+int[,] matrix = { { 1,2,3,}, { 4,5,6 }, { 6,7,8 }, { 8,9,10 } };
+for(int i = 0; i < 4; i++)
+{
+    for (int k = 0; k < 3; k++)
+    {
+        Console.Write($"{matrix[i, k].ToString()}\t");
+    }
+    Console.Write("\n");
+}
+//3b
