@@ -152,14 +152,86 @@ Console.WriteLine(sb);
 sb.Insert(0, "100");
 sb.Insert(sb.Length, "200");
 Console.WriteLine(sb);
-//3a
-int[,] matrix = { { 1,2,3,}, { 4,5,6 }, { 6,7,8 }, { 8,9,10 } };
-for(int i = 0; i < 4; i++)
+Console.WriteLine("3 Task?");
+int three = Convert.ToInt32(Console.ReadLine());
+if (three != 0)
 {
-    for (int k = 0; k < 3; k++)
+    //3a
+    int[,] matrix = { { 1, 2, 3, }, { 4, 5, 6 }, { 6, 7, 8 }, { 8, 9, 10 } };
+    for (int i = 0; i < 4; i++)
     {
-        Console.Write($"{matrix[i, k].ToString()}\t");
+        for (int k = 0; k < 3; k++)
+        {
+            Console.Write($"{matrix[i, k].ToString()}\t");
+        }
+        Console.Write("\n");
     }
+    //3b
+    string[] strochki = { "wwff df fdf", "sdfwevss dvsd df", "sdvsd xvdxse d" };
+    for (int i = 0; i < strochki.Length; i++)
+    {
+        Console.WriteLine(strochki[i]);
+    }
+    Console.WriteLine(strochki.Length);
+    Console.WriteLine("Введите позицию");
+    int pos = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите новую строку");
+    string newText = Console.ReadLine();
+    strochki[pos] = newText;
+    for (int i = 0; i < strochki.Length; i++)
+    {
+        Console.WriteLine(strochki[i]);
+    }
+    //3c
+    double[][] stupench = new double[3][];
+    stupench[0] = new double[2];
+    stupench[1] = new double[3];
+    stupench[2] = new double[4];
+    for (int i = 0; i < stupench[0].Length; i++)
+        stupench[0][i] = Convert.ToDouble(Console.ReadLine());
+    for (int i = 0; i < stupench[1].Length; i++)
+        stupench[1][i] = Convert.ToDouble(Console.ReadLine());
+    for (int i = 0; i < stupench[2].Length; i++)
+        stupench[2][i] = Convert.ToDouble(Console.ReadLine());
+
+    for (int i = 0; i < stupench[0].Length; i++)
+        Console.Write($"{stupench[0][i]} \t");
     Console.Write("\n");
+    for (int i = 0; i < stupench[1].Length; i++)
+        Console.Write($"{stupench[1][i]} \t");
+    Console.Write("\n");
+    for (int i = 0; i < stupench[2].Length; i++)
+        Console.Write($"{stupench[2][i]} \t");
+    Console.Write("\n");
+
+    var neyavniMassiv = new[] { 1, 2, 3, };
+    var neyavnayaStroka = "sdwe";
+
+    Console.WriteLine(neyavniMassiv[0]);
+    Console.WriteLine(neyavnayaStroka);
 }
-//3b
+//4a
+
+var kort1 = (1, "32d", 'w', "sdcdfff", 18446744073709551613);
+
+//4b
+
+Console.WriteLine(kort1);
+Console.WriteLine(kort1.Item1);
+Console.WriteLine(kort1.Item3);
+Console.WriteLine(kort1.Item4);
+int kortVar = kort1.Item1;
+Console.WriteLine(kortVar);
+(string slov, char simbolw) = (kort1.Item2, kort1.Item3);
+Console.WriteLine(slov);
+Console.WriteLine(simbolw);
+(var elem4, var elem5) = (kort1.Item4, kort1.Item5);
+Console.WriteLine(elem4);
+Console.WriteLine(elem5);
+
+var kort2 = (1, "32d", 'w', "sdcdfff", 18446744073709551613);
+
+if(kort1 == kort2)
+{
+    Console.WriteLine("kort1 = kort2");
+}
