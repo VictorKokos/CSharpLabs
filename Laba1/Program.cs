@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Linq;
 //1.a) 
 Console.WriteLine("Задание 1a?");
 if (Console.ReadLine() != "0")
@@ -235,3 +236,36 @@ if(kort1 == kort2)
 {
     Console.WriteLine("kort1 = kort2");
 }
+//5
+int[] Celie5 = { 1, 2, 3, 4, 5, 6, };
+string Stroka5 = "scuf";
+ (int, int, int, char) Func(int[] Mass,string Stroka)
+{
+  int maxim = Mass.Max();
+  int minim = Mass.Min();
+  int summa = Mass.Sum();
+    char firstFromTask5 = Stroka.First();
+
+    return (maxim, minim, summa, firstFromTask5);
+}
+Console.WriteLine(Func(Celie5, Stroka5));
+//6
+int Func1 ()
+{
+    checked
+    {
+        int maxVozmozh = int.MaxValue;
+        return maxVozmozh;
+    }
+    
+}
+int Func2()
+{
+    unchecked
+    {
+        int maxVozmozh = int.MaxValue + 1;
+        return maxVozmozh;
+    }
+}
+Console.WriteLine(Func1());
+Console.WriteLine(Func2());
