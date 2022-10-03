@@ -1,5 +1,4 @@
 ﻿using System.Text;
-using System.Linq;
 //1.a) 
 Console.WriteLine("Задание 1a?");
 if (Console.ReadLine() != "0")

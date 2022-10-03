@@ -1,0 +1,15 @@
+D:\Work\CSharpLabs\Laba2\bin\Debug\net6.0\Laba2.exe
+D:\Work\CSharpLabs\Laba2\bin\Debug\net6.0\Laba2.deps.json
+D:\Work\CSharpLabs\Laba2\bin\Debug\net6.0\Laba2.runtimeconfig.json
+D:\Work\CSharpLabs\Laba2\bin\Debug\net6.0\Laba2.dll
+D:\Work\CSharpLabs\Laba2\bin\Debug\net6.0\Laba2.pdb
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\Laba2.csproj.AssemblyReference.cache
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\Laba2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\Laba2.AssemblyInfoInputs.cache
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\Laba2.AssemblyInfo.cs
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\Laba2.csproj.CoreCompileInputs.cache
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\Laba2.dll
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\refint\Laba2.dll
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\Laba2.pdb
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\Laba2.genruntimeconfig.cache
+D:\Work\CSharpLabs\Laba2\obj\Debug\net6.0\ref\Laba2.dll
