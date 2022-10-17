@@ -156,4 +156,17 @@ if (simbol == 1 || simbol == 0)
             Console.Write("\n");
         }
     }
+
+    Console.WriteLine("Введите первую строку матрицы.");
+    string stroka1 = Console.ReadLine();
+    Console.WriteLine("Введите вторую строку матрицы.");
+    string stroka2 = Console.ReadLine();
+    Console.WriteLine("Введите третью строку матрицы.");
+    string stroka3 = Console.ReadLine();
+
+    Laba2.BoolMatrix MatrixObj8 = new Laba2.BoolMatrix(stroka1, stroka2, stroka3);
+
+    MatrixObj8.WriteMatrix();
+    Laba2.BoolMatrix MatrixObj9 = new Laba2.BoolMatrix(2);
+    MatrixObj9.WriteMatrix();
 }
