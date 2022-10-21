@@ -1,6 +1,13 @@
 ﻿Console.WriteLine("Hello, World!");
 
 
+Laba2.BoolMatrix MatrixFunc2 = new Laba2.BoolMatrix("000", "000", "000");
+Laba2.BoolMatrix MatrixFunc3 = new Laba2.BoolMatrix("000", "000", "000");
+Console.WriteLine(MatrixFunc2.Equals(MatrixFunc3));
+
+
+
+
 Laba2.BoolMatrix MatrixFunc = new Laba2.BoolMatrix();
 bool [,] matrix1 = new bool [,] { { true, false, true }, { false, true, false }, { true, true, false } };
 bool[,] matrix2 = new bool[,] { { false, false, false }, { true, true, true }, { true, false, false } };
@@ -169,4 +176,9 @@ if (simbol == 1 || simbol == 0)
     MatrixObj8.WriteMatrix();
     Laba2.BoolMatrix MatrixObj9 = new Laba2.BoolMatrix(2);
     MatrixObj9.WriteMatrix();
+    string example = "000";
+
+    MatrixObj9.RevertStr(ref example);
+    Console.WriteLine(example);
+    Laba2.BoolMatrix.ShowInf();
 }

@@ -6,16 +6,21 @@ using System.Threading.Tasks;
 
 namespace Laba2
 {
-    internal class BoolMatrix
+    internal partial class BoolMatrix
     {
+        private static int kol { get ; set; }
+        private static int PrivateCalls { get; set; } = 0;
         public bool[,] matrix;
+       private static readonly int standartSize  = 3;
+       private const int constructorCount = 5;
         public BoolMatrix()
         {
+            kol++;
             Console.WriteLine("Создание объекта Matrix");
         }
         public BoolMatrix(int size)
         {
-            
+            kol++;
             Console.WriteLine("Создание объекта Matrix");
             string [] massStrok = new string[size];
             for(int i = 0; i < size; i++)
@@ -29,6 +34,7 @@ namespace Laba2
         }
         public BoolMatrix(string s1 = "000", string s2 = "000", string s3 = "000")
         {
+            kol++;
             Console.WriteLine("Создание объекта Matrix");
             bool b1 = Convert.ToBoolean(Convert.ToInt32(s1[0] - '0'));
             bool b2 = Convert.ToBoolean(Convert.ToInt32(s1[1] - '0'));
@@ -43,7 +49,17 @@ namespace Laba2
             bool b9 = Convert.ToBoolean(Convert.ToInt32(s3[2] - '0'));
             matrix = new bool[3, 3] { { b1, b2, b3 }, { b4, b5, b6 }, { b7, b8, b9 } };
         }
-        
+
+        static BoolMatrix()
+        {
+            kol = 0;
+        }
+
+        private BoolMatrix(bool a)
+        {
+            PrivateCalls++;
+        }
+
         public bool[,] SumMatrix(bool[,] m1, bool[,] m2)
         {
             bool[,] m3 = new bool [3,3];
@@ -134,6 +150,16 @@ namespace Laba2
                 }
                 Console.Write("\n");
             }
+        }
+
+        public void RevertStr (ref string strToRevert)
+        {
+            char[] chars = strToRevert.ToCharArray();
+            for (int i = 0; i < chars.Length; i++)
+            {
+                chars[i] = chars[i] == '0' ? '1' : '0';
+            }
+            strToRevert = string.Join("", chars); ;
         }
 
     }
