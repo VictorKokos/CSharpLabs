@@ -1,10 +1,10 @@
 ﻿Console.WriteLine("Hello, World!");
 
 
-Laba2.BoolMatrix MatrixFunc2 = new Laba2.BoolMatrix("000", "000", "000");
+Laba2.BoolMatrix MatrixFunc2 = new Laba2.BoolMatrix("100", "000", "000");
 Laba2.BoolMatrix MatrixFunc3 = new Laba2.BoolMatrix("000", "000", "000");
 Console.WriteLine(MatrixFunc2.Equals(MatrixFunc3));
-
+Console.WriteLine(MatrixFunc2.GetHashCode());
 
 
 

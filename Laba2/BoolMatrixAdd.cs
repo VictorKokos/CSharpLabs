@@ -19,14 +19,22 @@ namespace Laba2
 
         public override int GetHashCode()
         {
-            return string.Join("", matrix).GetHashCode();
+            int k = 0;
+            string str = "";
+            for(int j = 0; j < 3; j++)
+            for (int i = 0; i < 3; i++)
+            {
+                    str = str+ String.Join("",matrix[j,i]);
+            }
+            return str.GetHashCode();
         }
 
         public override bool Equals(object? obj)
         {
             if (obj is BoolMatrix)
             {
-                return base.GetHashCode() == obj.GetHashCode();
+                
+                return this.GetHashCode() == obj.GetHashCode();
             }
             return false;
         }

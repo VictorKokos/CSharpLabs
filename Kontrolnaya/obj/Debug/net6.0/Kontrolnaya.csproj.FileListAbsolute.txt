@@ -1,0 +1,15 @@
+D:\Work\CSharpLabs\Kontrolnaya\bin\Debug\net6.0\Kontrolnaya.exe
+D:\Work\CSharpLabs\Kontrolnaya\bin\Debug\net6.0\Kontrolnaya.deps.json
+D:\Work\CSharpLabs\Kontrolnaya\bin\Debug\net6.0\Kontrolnaya.runtimeconfig.json
+D:\Work\CSharpLabs\Kontrolnaya\bin\Debug\net6.0\Kontrolnaya.dll
+D:\Work\CSharpLabs\Kontrolnaya\bin\Debug\net6.0\Kontrolnaya.pdb
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\Kontrolnaya.csproj.AssemblyReference.cache
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\Kontrolnaya.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\Kontrolnaya.AssemblyInfoInputs.cache
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\Kontrolnaya.AssemblyInfo.cs
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\Kontrolnaya.csproj.CoreCompileInputs.cache
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\Kontrolnaya.dll
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\refint\Kontrolnaya.dll
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\Kontrolnaya.pdb
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\Kontrolnaya.genruntimeconfig.cache
+D:\Work\CSharpLabs\Kontrolnaya\obj\Debug\net6.0\ref\Kontrolnaya.dll
