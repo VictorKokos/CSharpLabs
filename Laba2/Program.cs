@@ -174,6 +174,7 @@ if (simbol == 1 || simbol == 0)
     Laba2.BoolMatrix MatrixObj8 = new Laba2.BoolMatrix(stroka1, stroka2, stroka3);
 
     MatrixObj8.WriteMatrix();
+    Console.WriteLine("Введите ");
     Laba2.BoolMatrix MatrixObj9 = new Laba2.BoolMatrix(2);
     MatrixObj9.WriteMatrix();
     string example = "000";
@@ -181,4 +182,10 @@ if (simbol == 1 || simbol == 0)
     MatrixObj9.RevertStr(ref example);
     Console.WriteLine(example);
     Laba2.BoolMatrix.ShowInf();
+
 }
+
+var BoolMatrixAnon =
+    new { kol = 1, PrivateCalls = 0, matrix = new bool[,] { { false, false,true},
+    { false, false, true }, { false, false, true } } };
+Console.WriteLine(BoolMatrixAnon.matrix);
