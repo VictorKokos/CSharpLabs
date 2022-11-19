@@ -72,3 +72,23 @@ Sasha.ID = 134;
 Sasha.department = 24;
 
 Console.WriteLine($"\n \n ID= {Sasha.ID} \n FIO = {Sasha.FIO} \n DEP = {Sasha.department}");
+
+
+//Статические методы
+Console.WriteLine(Lab3.StatisticOperation.Summa(Matrica5));
+Console.WriteLine(Lab3.StatisticOperation.Raznica(Matrica6));
+Console.WriteLine(Lab3.StatisticOperation.KolichestvoElem(Matrica7));
+
+//Методы расширения
+Console.WriteLine("Первое число в строке: ");
+Console.WriteLine("string a = ddwfr fr 30 22" );
+    Console.WriteLine("string b = 54394 hewfe hfbw");
+string a = "d40dwfr fr 30 22";
+string b = "54394 hewfe hfbw";
+Lab3.StatisticOperation.FirstNumberInStr(a);
+
+Lab3.StatisticOperation.FirstNumberInStr(b);
+Console.WriteLine("Обнуление отрицательных элементов матрицы");
+Matrica7.WriteMatrix();
+Lab3.StatisticOperation.ObnulenieOtricatelnih(Matrica7);
+Matrica7.WriteMatrix();

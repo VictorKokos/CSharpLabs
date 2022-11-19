@@ -8,7 +8,7 @@ namespace Lab3
 {
 
 
-    internal class Matrix
+    public class Matrix
     {
 
         // поля матрицы и её размера
