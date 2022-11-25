@@ -67,3 +67,12 @@ dia.BuyStone();
 Console.WriteLine($"{em1 is Lab4.Emerald}");
 Console.WriteLine($"{em1 is Lab4.Stones}");
 Console.WriteLine($"{em1 is Lab4.Ruby} \n\n\n");
+
+
+// принтер
+Lab4.Product[] ProductArray = { em1, rb, dia, stone, kurtka, nitka };
+Lab4.Printer printer = new();
+foreach (var obj in ProductArray)
+{
+    printer.IAmPrinting(obj);
+}

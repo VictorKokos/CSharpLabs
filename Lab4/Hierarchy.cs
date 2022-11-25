@@ -12,6 +12,10 @@ namespace Lab4
         public string name;
         public float price;
         public abstract void PrintInfo();
+        public override string ToString()
+        {
+            return ($"Тип: {this.GetType()}, имя: {name}, стоимость: {price},");
+        }
     }
     sealed public class Thread : Product
     {
@@ -19,7 +23,11 @@ namespace Lab4
       public string color;
      public override void PrintInfo()
         {
-            Console.WriteLine($"{name}, стоимость: {price}, длина: {lenth}");
+            Console.WriteLine($"Тип: {this.GetType()}, имя: {name}, стоимость: {price}, длина: {lenth}");
+        }
+        public override string ToString()
+        {
+            return ($"Тип: {this.GetType()}, имя: {name}, стоимость: {price}, длина: {lenth}, цвет: {color}");
         }
     }
     public class  Stones: Product
@@ -29,21 +37,34 @@ namespace Lab4
 
         public override void PrintInfo()
         {
-            Console.WriteLine($"{name}, стоимость: {price}, масса: {weight}");
+            Console.WriteLine($"Тип: {this.GetType()}, имя: {name}, стоимость: {price}, масса: {weight}");
         }
         public virtual void BuyStone()
         {
             Console.WriteLine("Камень куплен");
+        }
+        public override string ToString()
+        {
+            return ($"Тип: {this.GetType()}, имя: {name}, стоимость: {price}, вес: {weight}, цвет: {color}");
         }
     }
     public class PreciousStones : Stones
     {
        
         public int OrderOfJewel;
+        public override string ToString()
+        {
+            return ($"Тип: {this.GetType()}, имя: {name}, стоимость: " +
+                $"{price}, вес: {weight}, цвет: {color}, степень: {OrderOfJewel} ");
+        }
     }
     public class SemiPreciousStones : Stones
     {
         public int OrderOfSemiJewel;
+        public override string ToString()
+        {
+            return ($"Тип: {this.GetType()}, имя: {name}, стоимость: {price}, вес: {weight}, цвет: {color}");
+        }
 
     }
    sealed public class Ruby : PreciousStones
