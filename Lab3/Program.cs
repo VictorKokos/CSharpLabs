@@ -1,4 +1,4 @@
-﻿/*
+﻿
 //Создаём, определяем размер, заполняем матрицы 1 и 2
 
 Lab3.Matrix Matrica1 = new();
@@ -16,7 +16,7 @@ Matrica3.WriteMatrix();
 Matrica3= -(Matrica3);
 Matrica3.WriteMatrix();
 
-*/
+
 // матрицы 4 и 5 не равны по первому столбцу
 
 Lab3.Matrix Matrica4 = new("4 матрица", 3);
