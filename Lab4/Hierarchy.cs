@@ -16,9 +16,18 @@ namespace Lab4
         {
             return ($"Тип: {this.GetType()}, имя: {name}, стоимость: {price},");
         }
+        public enum type
+        {
+            clothing,
+            jewerly
+        }
     }
     sealed public class Thread : Product
     {
+        public Thread ()
+        {
+            Console.WriteLine(type.clothing);
+        }
       public float lenth;
       public string color;
      public override void PrintInfo()
@@ -50,12 +59,16 @@ namespace Lab4
     }
     public class PreciousStones : Stones
     {
-       
+        public PreciousStones()
+        {
+            Console.WriteLine(type.jewerly);
+        }
+        public double transparency;
         public int OrderOfJewel;
         public override string ToString()
         {
             return ($"Тип: {this.GetType()}, имя: {name}, стоимость: " +
-                $"{price}, вес: {weight}, цвет: {color}, степень: {OrderOfJewel} ");
+                $"{price}, вес: {weight}, цвет: {color}, степень: {OrderOfJewel}, Прозрачность: {transparency}");
         }
     }
     public class SemiPreciousStones : Stones
@@ -69,6 +82,7 @@ namespace Lab4
     }
    sealed public class Ruby : PreciousStones
     {
+        float transparency;
         public override void BuyStone()
         {
             Console.WriteLine("Рубин куплен");
@@ -98,6 +112,7 @@ namespace Lab4
     }
     sealed public class Emerald : PreciousStones
     {
+
         public override void BuyStone()
         {
             Console.WriteLine("Изумруд блестит в моих руках. Теперь он мой.");
@@ -107,10 +122,7 @@ namespace Lab4
             OrderOfJewel = 1;
             color = "green";
         }
-        public override string ToString()
-        {
-            return name;
-        }
+       
         public override int GetHashCode()
         {
             return name.GetHashCode();
@@ -136,21 +148,19 @@ namespace Lab4
         public void Repair(Clothes clothes);
         public void PrintInfo();
     }
-    public class FashionStudio : Product, IClothesRepair
+     public partial class FashionStudio : Product, IClothesRepair
     {
+        struct Employee
+        {
+            string CEO;
+            string[] workers;
+        }
         public int numberOfEmployees;
         public override void PrintInfo()
         {
             Console.WriteLine($"{name}, стоимость: {price}, Количество сотрудникоы: {numberOfEmployees}");
         }
-        public void UnwindThread(Thread thread)
-        {
-            thread.lenth--;
-        }
-        public void Repair(Clothes clothes)
-        {
-            clothes.wear = 0;
-        }
+       
     }
 
 }
