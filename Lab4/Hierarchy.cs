@@ -63,6 +63,7 @@ namespace Lab4
         {
             Console.WriteLine(type.jewerly);
         }
+       
         public double transparency;
         public int OrderOfJewel;
         public override string ToString()

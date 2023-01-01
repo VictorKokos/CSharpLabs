@@ -1,0 +1,5 @@
+D:\Work\CSharpLabs\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.AssemblyReference.cache
+D:\Work\CSharpLabs\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CSharpLabs\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfoInputs.cache
+D:\Work\CSharpLabs\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfo.cs
+D:\Work\CSharpLabs\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CoreCompileInputs.cache
