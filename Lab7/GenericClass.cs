@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Lab7
 {
     
-    internal class GenericClass<T> : IGeneric<T> 
+    internal class GenericClass<T> : IGeneric<T>
     {
         public List<T> list = new List<T>();
         public void Add(T item)
