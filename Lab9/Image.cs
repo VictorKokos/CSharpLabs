@@ -8,7 +8,19 @@ namespace Lab9
 {
     public class Image
     {
-      public  int height { get; set; }
+
+        public  Image(string name, int height, int width)
+            {
+            this.height = height;
+            this.width = width;
+            this.name = name;
+        }
+        public Image()
+        {
+           
+        }
+
+        public  int height { get; set; }
         public int width { get; set; }
         public string name { get; set; }
 

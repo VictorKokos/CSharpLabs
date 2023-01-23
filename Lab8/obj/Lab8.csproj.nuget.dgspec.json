@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\Work\\CSharpLabs\\Lab8\\Lab8.csproj",
         "projectName": "Lab8",
         "projectPath": "D:\\Work\\CSharpLabs\\Lab8\\Lab8.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Виктор\\.nuget\\packages\\",
         "outputPath": "D:\\Work\\CSharpLabs\\Lab8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Виктор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

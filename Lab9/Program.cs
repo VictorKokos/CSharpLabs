@@ -1,4 +1,6 @@
 ﻿using Lab9;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 
 Set images = new Set();
 
@@ -94,3 +96,26 @@ int a = Convert.ToInt32(Console.ReadLine());
 
 
 Console.WriteLine(numbersList.Find(number => number == a));
+
+
+
+//Task 3
+
+var imageCol = new ObservableCollection<Image>()
+{
+   kartinka1, kartinka2, kartinka3
+};
+// подписываемся на событие изменения коллекции
+imageCol.CollectionChanged += CollectionEvent.Image_CollectionChanged;
+
+imageCol.Add(new Image("Черный квадрат", 400,400));  // добавляем новый элемент
+
+imageCol.RemoveAt(1);                 // удаляем элемент
+imageCol[0] = new Image("Мона Лиза", 800, 400);   // заменяем элемент
+
+Console.WriteLine("\nСписок картин:");
+foreach (var image in imageCol)
+{
+    Console.WriteLine(image.name);
+}
+// обработчик изменения коллекции
