@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\Work\\CSharpLabs\\Lab10\\Lab10.csproj",
         "projectName": "Lab10",
         "projectPath": "D:\\Work\\CSharpLabs\\Lab10\\Lab10.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Виктор\\.nuget\\packages\\",
         "outputPath": "D:\\Work\\CSharpLabs\\Lab10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Виктор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "FakeItEasy": {
-              "target": "Package",
-              "version": "[7.3.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
