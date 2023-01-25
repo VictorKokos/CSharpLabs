@@ -1,0 +1,7 @@
+
+Lab9, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ Конструкторы: True
+ Методы:Void SetInf(System.String, Int32, Int32), Int32 get_height(), Void set_height(Int32), Int32 get_width(), Void set_width(Int32), System.String get_name(), Void set_name(System.String), System.String ToString(), Boolean Equals(System.Object), System.Type GetType(), Int32 GetHashCode(), 
+ Поля:SetInf, get_height, set_height, get_width, set_width, get_name, set_name, ToString, Equals, GetType, GetHashCode, .ctor, .ctor, height, width, name, 
+ Интерфейсы:
+ Методы с параметрами определённого типа:SetInf, get_height, set_height, get_width, set_width, get_name, set_name, ToString, Equals, GetType, GetHashCode, 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Lab7
 {
     [Serializable]
-    internal class MyClass
+    public class MyClass
     {
         int Id;
         string Value;
