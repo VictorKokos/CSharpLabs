@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Кремень</Name>
+  <Price>500</Price>
+  <Color>Серый</Color>
+</Stone>
