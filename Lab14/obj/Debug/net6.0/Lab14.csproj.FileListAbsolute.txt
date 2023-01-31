@@ -1,0 +1,15 @@
+D:\Work\CSharpLabs\Lab14\bin\Debug\net6.0\Lab14.exe
+D:\Work\CSharpLabs\Lab14\bin\Debug\net6.0\Lab14.deps.json
+D:\Work\CSharpLabs\Lab14\bin\Debug\net6.0\Lab14.runtimeconfig.json
+D:\Work\CSharpLabs\Lab14\bin\Debug\net6.0\Lab14.dll
+D:\Work\CSharpLabs\Lab14\bin\Debug\net6.0\Lab14.pdb
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\Lab14.csproj.AssemblyReference.cache
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\Lab14.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\Lab14.AssemblyInfoInputs.cache
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\Lab14.AssemblyInfo.cs
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\Lab14.csproj.CoreCompileInputs.cache
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\Lab14.dll
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\refint\Lab14.dll
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\Lab14.pdb
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\Lab14.genruntimeconfig.cache
+D:\Work\CSharpLabs\Lab14\obj\Debug\net6.0\ref\Lab14.dll
