@@ -4,3 +4,8 @@ Lab7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
  Методы:Void setValues(Int32, System.String), System.String ToString(), System.Type GetType(), Boolean Equals(System.Object), Int32 GetHashCode(), 
  Поля:setValues, ToString, GetType, Equals, GetHashCode, .ctor, 
  Интерфейсы:
+Lab7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ Конструкторы: True
+ Методы:Void setValues(Int32, System.String), System.String ToString(), System.Type GetType(), Boolean Equals(System.Object), Int32 GetHashCode(), 
+ Поля:setValues, ToString, GetType, Equals, GetHashCode, .ctor, 
+ Интерфейсы:

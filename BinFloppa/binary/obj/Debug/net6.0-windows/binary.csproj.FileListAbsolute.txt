@@ -1,0 +1,17 @@
+D:\Work\CSharpLabs\BinFloppa\binary\bin\Debug\net6.0-windows\binary.exe
+D:\Work\CSharpLabs\BinFloppa\binary\bin\Debug\net6.0-windows\binary.deps.json
+D:\Work\CSharpLabs\BinFloppa\binary\bin\Debug\net6.0-windows\binary.runtimeconfig.json
+D:\Work\CSharpLabs\BinFloppa\binary\bin\Debug\net6.0-windows\binary.dll
+D:\Work\CSharpLabs\BinFloppa\binary\bin\Debug\net6.0-windows\binary.pdb
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.csproj.AssemblyReference.cache
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.Calculator.resources
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.csproj.GenerateResource.cache
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.AssemblyInfoInputs.cache
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.AssemblyInfo.cs
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.csproj.CoreCompileInputs.cache
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.dll
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\refint\binary.dll
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.pdb
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\binary.genruntimeconfig.cache
+D:\Work\CSharpLabs\BinFloppa\binary\obj\Debug\net6.0-windows\ref\binary.dll

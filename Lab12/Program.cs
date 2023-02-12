@@ -32,3 +32,13 @@ KVPDirInfo CSharpLabs = new(@"D:\Work\CSharpLabs");
 
 manager.CopyToKVPFiles(CSharpLabs, ".pdf");
 
+
+string sourceFile = "Archieve.txt"; // исходный файл
+string compressedFile = "Archieve.gz"; // сжатый файл
+string targetFile = "Archieve_new.txt"; // восстановленный файл
+
+// создание сжатого файла
+await manager.CompressAsync(sourceFile, compressedFile);
+// чтение из сжатого файла
+await manager.DecompressAsync(compressedFile, targetFile);
+

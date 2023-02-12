@@ -1,0 +1,17 @@
+D:\Work\CSharpLabs2\Lab1\bin\Debug\net6.0-windows\Lab1.exe
+D:\Work\CSharpLabs2\Lab1\bin\Debug\net6.0-windows\Lab1.deps.json
+D:\Work\CSharpLabs2\Lab1\bin\Debug\net6.0-windows\Lab1.runtimeconfig.json
+D:\Work\CSharpLabs2\Lab1\bin\Debug\net6.0-windows\Lab1.dll
+D:\Work\CSharpLabs2\Lab1\bin\Debug\net6.0-windows\Lab1.pdb
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.AssemblyReference.cache
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.Form1.resources
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.GenerateResource.cache
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.AssemblyInfoInputs.cache
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.AssemblyInfo.cs
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.CoreCompileInputs.cache
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.dll
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\refint\Lab1.dll
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.pdb
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\Lab1.genruntimeconfig.cache
+D:\Work\CSharpLabs2\Lab1\obj\Debug\net6.0-windows\ref\Lab1.dll
